@@ -1,0 +1,26 @@
+sno=int(input("Enter sno:"))
+sname=input("Enter sname:")
+maths=int(input("Enter maths:"))
+physics=int(input("Enter physics:"))
+comp=int(input("Enter comp:"))
+telugu=int(input("Enter telugu:"))
+english=int(input("Enter english:"))
+chemistry=int(input("Enter chemistry:"))
+total=maths+physics+comp+telugu+english+chemistry
+avg=total/6
+if avg>=91:
+    print("O-GRADE")
+elif avg>=81:
+    print("A-Grade")
+elif avg>=71:
+    print("B-Grade")
+elif avg>=61:
+    print("C-Grade")
+elif avg>=51:
+    print("D-Grade")
+elif avg>=41:
+    print("PASS")
+else:
+    print("FAIL")
+
+
